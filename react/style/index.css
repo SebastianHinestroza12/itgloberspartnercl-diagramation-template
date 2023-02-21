@@ -88,7 +88,7 @@
   border: none;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 575px) {
 
     .grid__1,
     .grid__2,
@@ -117,5 +117,15 @@
         width: calc(55% - 20px);
         height: auto;
         gap: 5px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 430px) {
+    .grid__1,
+    .grid__2,
+    .grid__3,
+    .grid__4 {
+        flex-direction:initial;
+        align-items: center;
     }
 }
